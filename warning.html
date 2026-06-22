@@ -18,14 +18,32 @@ body {
   text-align: center;
 }
 
-a {
+.next-link {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.next-link:hover {
+  text-decoration: underline;
 }
 
 h1 {
   color: black;
   font-family: "Stencil", Impact, fantasy;
   font-size: clamp(40px, 10vw, 90px);
+}
+
+h2 {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: clamp(24px, 6vw, 50px);
 }
 
 img {
@@ -36,11 +54,10 @@ img {
 </head>
 <body>
 
+<a class="next-link" href="exhibitB.html">Next</a>
+
 <div class="container">
-  <a href="exhibitB.html">
-    <h1>Exhibit A</h1>
-  </a>
-  
+  <h1>Exhibit A</h1>
   <img src="images/victim.jpg" alt="victim">
   <h2>The Gangs All Here</h2>
 </div>
