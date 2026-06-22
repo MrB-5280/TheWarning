@@ -18,14 +18,32 @@ body {
   text-align: center;
 }
 
-a {
+.next-link {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.next-link:hover {
+  text-decoration: underline;
 }
 
 h1 {
   color: black;
   font-family: "Stencil", Impact, fantasy;
   font-size: clamp(40px, 10vw, 90px);
+}
+
+h2 {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: clamp(24px, 6vw, 50px);
 }
 
 img {
@@ -36,10 +54,10 @@ img {
 </head>
 <body>
 
+<a class="next-link" href="exhibitC.html">Next</a>
+
 <div class="container">
-  <a href="exhibitC.html">
-    <h1>Exhibit B</h1>
-  </a>
+  <h1>Exhibit B</h1>
   <img src="moana.jpg" alt="victim">
   <h2>Moana (1932)</h2>
 </div>
