@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: black;
+	height: 100vh;
+  	margin: 0;
+
+  	display: flex;
+  	justify-content: center; /* centers left and right */
+  	align-items: center;     /* centers up and down */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1   {
+	color: blue;
+	text-align: center;
+	animation: flashColors 1s infinite;
+}
+
+@keyframes flashColors {
+  0% {
+    color: yellow;
+  }
+
+  33% {
+    color: hotpink;
+  }
+
+  66% {
+    color: lightgreen;
+  }
+
+  100% {
+    color: skyblue;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<a href="warning.html">
+  <h1>Click this link if you dare...</h1>
+</a>
+
+
+</body>
+</html>
